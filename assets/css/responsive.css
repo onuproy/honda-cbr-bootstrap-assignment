@@ -1,4 +1,3 @@
-/* Media Query  */
 @media all and (max-width:991px) {
 	.honda_image {
 		margin-top: 56px;
@@ -17,9 +16,6 @@
 	.frequantly_question_area {
 		margin-top: 67px;
 	}
-
-
-
 }
 @media all and (max-width:767px) {
 
@@ -48,14 +44,15 @@
 		padding-top: 0;
 	}
 
-
+	.about_secion_area .section_title{
+	    padding-bottom: 30px;
+	}
+	.about_secion_area{
+	    padding-bottom: 20px;
+	    padding-top: 20px;
+	}
+	.about_description{
+		padding-top: 20px;
+	}
 
 }
-
-@media all and (max-width:576px) {
-
-}
-@media all and (max-width:991px) {
-
-}
-

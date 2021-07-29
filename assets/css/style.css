@@ -30,7 +30,6 @@ a:hover {
 li {
     list-style: none;
 }
-
 input,
 select,
 textarea {
@@ -42,27 +41,23 @@ button:focus {
     text-shadow: none !important;
 }
 
-
 h1 {
     font-size: 48px;
     font-weight: 600;
 }
-
 h1 span {
     color: #E76F51;
 }
-
 p {
     font-size: 16px;
 }
 
-/*Hero Css*/
+/*Hero Css Area*/
 .hero_section_area {
     background: #264653;
     padding-top: 155px;
     padding-bottom: 96px;
 }
-
 .hero_button {
     background: #E76F51;
     outline: none;
@@ -70,7 +65,6 @@ p {
     height: 44px;
 }
 .form-control:focus {
-    -webkit-box-shadow: none !important;
     box-shadow: none !important;
 }
 .form-control {
@@ -98,19 +92,17 @@ p {
 .bike_image.text-center img {
     width: 80%;
 }
-
 .section_title {
     padding-bottom: 100px;
 }
 .single_bike_item:first-child img, .single_bike_item:last-child img {
-    filter: grayscale(1.1);
+    -webkit-filter: grayscale(1.1);
+            filter: grayscale(1.1);
 }
-
 .profile_image {
     width: 150px;
     height: 150px;
 }
-
 .review_start li {
     color: #E77C40;
     padding: 0 5px;
@@ -121,47 +113,59 @@ p {
 }
 
 /*Accordion Style Css*/
-.frequantly_asked_question_section_area{
-
-}
 .accordion_single_item {
     border: 1px solid #D5E5FB !important;
     border-radius: 5px;
     margin-bottom: 27px;
 }
-
 .accordion_single_item:last-child {
     margin-bottom: 0;
 }
-
 .accordion-button {
     color: #383838 !important;
     background-color: transparent !important;
-    -webkit-box-shadow: none !important;
     box-shadow: none !important;
     font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-weight: 500;
     line-height: 28px;
 }
-
 .accordion-button:not(.collapsed)::after {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%230c63e'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e") !important;
     -webkit-transform: rotate(-180deg);
-    -ms-transform: rotate(-180deg);
     transform: rotate(-180deg);
 }
 .accordion_single_item p {
     font-family: 'Inter', sans-serif;
     color: #7E848C;
 }
-
 .accordion-body {
     padding: 1rem 1.25rem;
     padding-top: 0;
 }
-
 /*Contact Section Area*/
 .contact_section_area .section_title {
     padding-bottom: 52px;
+}
+/*About SEcion Css*/
+.about_description p{
+    margin-bottom: 15px;
+}
+.hero_button_a {
+    background: #E76F51;
+    outline: none;
+    width: 168px;
+    display: inline-block;
+    text-align: center;
+    color: #FFF;
+    font-weight: 700;
+    padding: 11px;
+    border-radius: 7px;
+    margin-top: 10px;     
+}
+.hero_button_a:hover{
+    color: #FFF;
+}
+.about_secion_area .section_title{
+    padding-bottom: 50px;
 }
