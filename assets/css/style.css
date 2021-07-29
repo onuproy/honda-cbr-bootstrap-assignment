@@ -105,3 +105,58 @@ p {
 .single_bike_item:first-child img, .single_bike_item:last-child img {
     filter: grayscale(1.1);
 }
+
+.profile_image {
+    width: 150px;
+    height: 150px;
+}
+
+.review_start li {
+    color: #E77C40;
+    padding: 0 5px;
+}
+.client_single {
+    width: 95%;
+    margin: auto;
+}
+
+/*Accordion Style Css*/
+.frequantly_asked_question_section_area{
+
+}
+.accordion_single_item {
+    border: 1px solid #D5E5FB !important;
+    border-radius: 5px;
+    margin-bottom: 27px;
+}
+
+.accordion_single_item:last-child {
+    margin-bottom: 0;
+}
+
+.accordion-button {
+    color: #383838 !important;
+    background-color: transparent !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%230c63e'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e") !important;
+    -webkit-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+}
+.accordion_single_item p {
+    font-family: 'Inter', sans-serif;
+    color: #7E848C;
+}
+
+.accordion-body {
+    padding: 1rem 1.25rem;
+    padding-top: 0;
+}

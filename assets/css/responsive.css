@@ -3,6 +3,22 @@
 	.honda_image {
 		margin-top: 56px;
 	}
+	.single_item_client{
+		margin-bottom: 24px;
+	}
+	.frequantly_vactor_image {
+		text-align: center;
+		width: 90%;
+		margin: auto;
+	}
+	.frequantly_vactor_image img {
+		width: 100% !important;
+	}
+	.frequantly_question_area {
+		margin-top: 67px;
+	}
+
+
 
 }
 @media all and (max-width:767px) {
@@ -24,12 +40,16 @@
 	.fetured_bikes_section_area {
 		padding-bottom: 10px;
 	}
+	.client_single {
+	    width: 100%;
+	    margin: auto;
+	}
 
 
 
 }
 
-@media all and (max-width:991px) {
+@media all and (max-width:576px) {
 
 }
 @media all and (max-width:991px) {
