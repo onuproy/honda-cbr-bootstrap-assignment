@@ -1,0 +1,38 @@
+/* Media Query  */
+@media all and (max-width:991px) {
+	.honda_image {
+		margin-top: 56px;
+	}
+
+}
+@media all and (max-width:767px) {
+
+	.hero_section_area {
+		padding-top: 121px;
+		padding-bottom: 36px;
+	}
+	h1 {
+		font-size: 34px;
+		padding-bottom: 10px !important;
+	}
+	.section_title {
+		padding-bottom: 60px;
+	}
+	.bike_image.text-center {
+	    margin-bottom: 45px;
+	}
+	.fetured_bikes_section_area {
+		padding-bottom: 10px;
+	}
+
+
+
+}
+
+@media all and (max-width:991px) {
+
+}
+@media all and (max-width:991px) {
+
+}
+

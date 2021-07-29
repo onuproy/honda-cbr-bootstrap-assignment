@@ -42,10 +42,6 @@ button:focus {
     text-shadow: none !important;
 }
 
-.section-padding {
-    padding: 70px 0;
-}
-
 
 h1 {
     font-size: 48px;
@@ -79,4 +75,33 @@ p {
 }
 .form-control {
     padding: 12px 20px !important;
+}
+.section_title_after span::after {
+    content: "";
+    width: 58px;
+    height: 1px;
+    background: #E76F51;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    overflow: hidden;
+    position: absolute;
+    bottom: -3px;
+    z-index: -1;
+}
+.fetured_bikes_section_area {
+    padding-top: 64px;
+}
+.section_padding {
+    padding: 70px 0;
+}
+.bike_image.text-center img {
+    width: 80%;
+}
+
+.section_title {
+    padding-bottom: 100px;
+}
+.single_bike_item:first-child img, .single_bike_item:last-child img {
+    filter: grayscale(1.1);
 }
