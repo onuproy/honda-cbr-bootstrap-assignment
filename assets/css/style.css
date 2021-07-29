@@ -160,3 +160,8 @@ p {
     padding: 1rem 1.25rem;
     padding-top: 0;
 }
+
+/*Contact Section Area*/
+.contact_section_area .section_title {
+    padding-bottom: 52px;
+}
