@@ -13,6 +13,14 @@
 	.frequantly_vactor_image img {
 		width: 100% !important;
 	}
+	.about_vactor_image {
+		text-align: center;
+		width: 90%;
+		margin: auto;
+	}
+	.about_vactor_image img {
+		width: 100% !important;
+	}
 	.frequantly_question_area {
 		margin-top: 67px;
 	}
