@@ -1,0 +1,82 @@
+/* Defalut css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+label,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+input,
+select,
+textarea {
+    outline: none;
+}
+
+button:focus {
+    outline: none !important;
+    text-shadow: none !important;
+}
+
+.section-padding {
+    padding: 70px 0;
+}
+
+
+h1 {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+h1 span {
+    color: #E76F51;
+}
+
+p {
+    font-size: 16px;
+}
+
+/*Hero Css*/
+.hero_section_area {
+    background: #264653;
+    padding-top: 155px;
+    padding-bottom: 96px;
+}
+
+.hero_button {
+    background: #E76F51;
+    outline: none;
+    width: 168px;
+    height: 44px;
+}
+.form-control:focus {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+.form-control {
+    padding: 12px 20px !important;
+}
